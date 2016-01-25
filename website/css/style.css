@@ -1,0 +1,41 @@
+p {
+  font-size: 1em;
+  color: #FFF;
+  font-family: sans-serif; }
+
+.button {
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 20px;
+  width: 170px;
+  height: 60px; }
+  .button p {
+    color: #ccbb89;
+    font-weight: bold;
+    font-size: 1.2em; }
+
+.solid-bg {
+  background-color: #ccbb89; }
+
+.solid, .solid-bg {
+  min-height: 100vh;
+  display: block; }
+
+.home {
+  text-align: center;
+  top: 32vh; }
+  .home hr {
+    width: 20%;
+    border: none;
+    height: 5px;
+    color: #FFF;
+    background-color: #FFF;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+
+/*# sourceMappingURL=style.css.map */
