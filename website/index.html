@@ -19,64 +19,177 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container-fluid solid-bg">
+    <div class="container-fluid page-nav">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="nav-logo">
+            <img class="img-responsive link" id="home" onclick="scrollTo(this.id)" src="img/nav-logo.png">
+          </div>
+          <div class="nav-links">
+            <p class="link" id="about" onclick="scrollTo(this.id)">About</p>
+            <p class="link" id="styles" onclick="scrollTo(this.id)">Styles</p>
+            <p class="link" id="listen" onclick="scrollTo(this.id)">Listen</p>
+            <p class="link" id="video" onclick="scrollTo(this.id)">Video</p>
+            <p class="link" id="book" onclick="scrollTo(this.id)">Book</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid solid-bg" id="section-home">
       <div class="container">
         <div class="col-xs-12 home">
           <div class="row">
-            <img class="img-responsive" src="img/logo2.png">
+            <img data-sr='ease-in 50px, reset' class="img-responsive" src="img/logo2.png">
           </div>
           <div class="row">
             <hr>
           </div>
           <div class="row">
-            <p>Innervation are (One sentance description of what you guys offer!)</p>
+            <p>Innervation are (One sentance description of what you guys offer!) HOOK!</p>
           </div>
           <div class="row">
-            <div class="button">
-              <p>Find out more</p>
+            <div onclick="ctaClick('about')" class="button link">
+              <p>Find Out More</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container-fluid solid">
+    <!--about-->
+    <div class="container-fluid solid" id="section-about">
       <div class="container">
-        <div class="col-xs-12">
-          
+        <!--...innervation-->
+        <div class="row">
+          <p>DESCRIPTION! Florem flipsum dolor sit amet, consectetur adipiscing elit. Duis id eros a erat tempus bibendum. Sed feugiat volutpat risus, at gravida velit tincidunt sit amet. Cras elementum enim sed lorem dapibus dictum. Vestibulum tempor tellus ut odio dignissim egestas. Quisque non volutpat magna. Donec hendrerit vitae est ut porta. Nam iaculis nunc felis, nec congue mi dapibus eget. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec sed dui et diam sagittis auctor. Nulla facilisi. Aenean dictum nunc in suscipit accumsan.</p>
+        </div>
+        <!--./...innervation-->
+        <div class="row">
+          <!--...cheryl-->
+          <div class="col-xs-12 col-sm-6  padding-top">
+            <img data-sr='ease-in 30px, reset' class="center-block img-circle profile-img" src="img/cheryl.png">
+            <p class="padding-top">ABOUT CHEZA! Florem flipsum dolor sit amet, consectetur adipiscing elit. Duis id eros a erat tempus bibendum. Sed feugiat volutpat risus, at gravida velit tincidunt sit amet. Cras elementum enim sed lorem dapibus dictum. Vestibulum tempor tellus ut odio dignissim egestas. Quisque non volutpat magna. Donec hendrerit vitae est ut porta.</p>
+            <h3 class="center-text"><a class="about-link" href="#">www.cherylking.co.uk</a></h3>
+          </div>
+          <!--./...cheryl-->
+          <!--...marcus-->
+          <div class="col-xs-12 col-sm-6 padding-top">
+            <img data-sr='ease-in 30px, reset' class="center-block img-circle profile-img" src="img/marcus.png">
+            <p class="padding-top">ABOUT MARCUS! Florem flipsum dolor sit amet, consectetur adipiscing elit. Duis id eros a erat tempus bibendum. Sed feugiat volutpat risus, at gravida velit tincidunt sit amet. Cras elementum enim sed lorem dapibus dictum. Vestibulum tempor tellus ut odio dignissim egestas. Quisque non volutpat magna. Donec hendrerit vitae est ut porta.</p>
+            <h3 class="center-text"><a class="about-link" href="#">marcusmusic</a></h3>
+          </div>
+          <!--./...marcus-->
         </div>
       </div>
     </div>
-    <div class="container-fluid solid-bg">
+    <!--./about-->
+    <div class="container-fluid solid-bg" id="section-styles">
       <div class="container">
-        <div class="col-xs-12">
-          
+        <div class="row">
+          <div class="col-xs-12">
+            <img data-sr='ease-in 50px, reset' class="center-block img-circle icon" src="img/icons/style.png">
+            <div class="center-text">
+              <h2 data-sr='ease-in 50px, reset'>Current & Modern Hits</h2>
+              <h2 data-sr='ease-in 50px, reset'>50's, 60's, 70's, 80's, 90's - Present</h2>
+              <h2 data-sr='ease-in 50px, reset'>Songs of Stage & Screen</h2>
+              <h2 data-sr='ease-in 50px, reset'>Songs of The Carpenters</h2>
+              <h2 data-sr='ease-in 50px, reset'>Guitar Legends</h2>
+              <h2 data-sr='ease-in 50px, reset'>Brit Pop</h2>
+              <h2 data-sr='ease-in 50px, reset'>Motown</h2>
+              <h2 data-sr='ease-in 50px, reset'>Rock 'N' Roll</h2>
+              <h2 data-sr='ease-in 50px, reset'>Theme Shows</h2>
+              <h2 data-sr='ease-in 50px, reset'>Corporate Caberet</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 padding-btm">
+            <div onclick="ctaClick('listen')" class="button link">
+              <p class="center-text">Listen</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container-fluid solid">
+    <div class="container-fluid solid" id="section-listen">
       <div class="container">
-        <div class="col-xs-12">
-          
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 padding">
+            <img data-sr='ease-in 50px, reset' class="center-block img-circle icon margin-btm" src="img/icons/listen.png">
+            <p class="center-text padding-btm">Name of this sound byte</p>
+            <audio class="center-block" controls>
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-xs-12 col-sm-6 padding">
+            <img data-sr='ease-in 50px, reset' class="center-block img-circle icon margin-btm" src="img/icons/listen.png">
+            <p class="center-text padding-btm">Name of this sound byte</p>
+            <audio class="center-block" controls>
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-xs-12 col-sm-6 padding">
+            <img data-sr='ease-in 50px, reset' class="center-block img-circle icon margin-btm" src="img/icons/listen.png">
+            <p class="center-text padding-btm">Name of this sound byte</p>
+            <audio class="center-block" controls>
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+          <div class="col-xs-12 col-sm-6 padding">
+            <img data-sr='ease-in 50px, reset' class="center-block img-circle icon margin-btm" src="img/icons/listen.png">
+            <p class="center-text padding-btm">Name of this sound byte</p>
+            <audio class="center-block" controls>
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container-fluid solid-bg">
+    <div class="container-fluid solid-bg" id="section-video">
       <div class="container">
-        <div class="col-xs-12">
-          
+        <div class="row">
+          <div class="col-xs-12">
+            <div data-sr='ease-in 50px, reset' class="videoWrapper">
+              <iframe width="560" height="349" src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div onclick="ctaClick('book')" class="button link">
+              <p class="center-text">Book</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container-fluid solid">
+    <div class="container-fluid solid" id="section-book">
       <div class="container">
-        <div class="col-xs-12">
-          
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 book-padding">
+            <img data-sr='ease-in 50px, reset' class="center-block img-circle icon" src="img/icons/phone.png">
+            <p class="center-text">07754606210</p>
+            <p class="center-text">07803597991</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 book-padding">
+            <img data-sr='ease-in 50px, reset' class="center-block img-circle icon" src="img/icons/email.png">
+            <p class="center-text">book@innervation.info</p>
+          </div>
         </div>
       </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery-2.1.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/scrollReveal.min.js"></script>
+    <script>
+      window.sr = new scrollReveal();
+    </script>
   </body>
 </html>
