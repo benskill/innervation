@@ -64,13 +64,11 @@ p {
   background-color: #f4f4f4; }
 
 .solid, .solid-bg {
-  min-height: 100vh;
-  display: block;
-  padding: 50px 15px 50px 15px; }
+  padding: 60px 15px 60px 15px; }
 
 .home {
-  text-align: center;
-  top: 32vh; }
+  padding-top: 50px;
+  text-align: center; }
   .home hr {
     width: 20%;
     border: none;
@@ -107,10 +105,10 @@ p {
   padding: 0 0 20px 0; }
 
 .padding {
-  padding-bottom: 15vh; }
+  padding-bottom: 50px; }
 
 .book-padding {
-  padding-top: 15vh; }
+  padding-top: 50px; }
 
 .videoWrapper {
   position: relative;
@@ -127,11 +125,5 @@ p {
   height: 100%; }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .padding {
-    padding-top: 15vh; }
-
-  .book-padding {
-    padding-top: 20vh; } }
 
 /*# sourceMappingURL=style.css.map */

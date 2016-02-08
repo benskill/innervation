@@ -72,15 +72,16 @@ p {
 }
 
 .solid, .solid-bg {
-	min-height: 100vh;
-	display: block;
-	padding: 50px 15px 50px 15px;
+	//min-height: 100vh;
+	//display: block;
+	padding: 60px 15px 60px 15px;
 
 }
 
 .home {
+	padding-top: 50px;
 	text-align: center;
-	top: 32vh;
+	//top: 32vh;
 	hr {
 		width: 20%;
 		border: none;
@@ -120,11 +121,13 @@ p {
 }
 .padding {
 	//padding: 30px;
-	padding-bottom: 15vh;
+	//padding-bottom: 15vh;
+	padding-bottom: 50px;
 }
 .book-padding {
-	padding-top: 15vh;
+	//padding-top: 15vh;
 	//padding: 90px 30px 80px 30px;
+	padding-top: 50px;
 }
 .videoWrapper {
 	position: relative;
@@ -144,11 +147,11 @@ p {
 @media (min-width: 768px) {
 .padding {
 	//padding: 70px 30px 60px 30px;
-	padding-top: 15vh;
+	//padding-top: 15vh;
 }
 .book-padding {
 	//padding: 90px 30px 80px 30px;
-	padding-top: 20vh;
+	//padding-top: 20vh;
 }
 }
 //10 mins
