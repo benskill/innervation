@@ -96,10 +96,3 @@ $( document ).scroll(function() {
 		}
 		//highlight BOOK
 });
-
-
-//45mins
-//53mins
-//50min
-//40 mins
-//40 mins 
